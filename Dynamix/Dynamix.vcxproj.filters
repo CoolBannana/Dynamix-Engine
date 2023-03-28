@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dynamix">
+      <UniqueIdentifier>{9F8A7598-0B6A-F433-1482-7F0A80E05A95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Dynamix.h" />
+    <ClInclude Include="src\Dynamix\Application.h">
+      <Filter>Dynamix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\Core.h">
+      <Filter>Dynamix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\EntryPoint.h">
+      <Filter>Dynamix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\Log.h">
+      <Filter>Dynamix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Dynamix\Application.cpp">
+      <Filter>Dynamix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Dynamix\Log.cpp">
+      <Filter>Dynamix</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

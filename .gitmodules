@@ -1,0 +1,3 @@
+[submodule "Dynamix/vendor/spdlog"]
+	path = Dynamix/vendor/spdlog
+	url = https://github.com/gabime/spdlog
