@@ -4,6 +4,9 @@
     <Filter Include="Dynamix">
       <UniqueIdentifier>{9F8A7598-0B6A-F433-1482-7F0A80E05A95}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Dynamix\Events">
+      <UniqueIdentifier>{A32DEFE7-8FFB-E2ED-788F-531464FCBE52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Dynamix.h" />
@@ -16,9 +19,22 @@
     <ClInclude Include="src\Dynamix\EntryPoint.h">
       <Filter>Dynamix</Filter>
     </ClInclude>
+    <ClInclude Include="src\Dynamix\Events\ApplicationEvent.h">
+      <Filter>Dynamix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\Events\Event.h">
+      <Filter>Dynamix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\Events\KeyEvent.h">
+      <Filter>Dynamix\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\Events\MouseEvent.h">
+      <Filter>Dynamix\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Dynamix\Log.h">
       <Filter>Dynamix</Filter>
     </ClInclude>
+    <ClInclude Include="src\dypch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Dynamix\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\Dynamix\Log.cpp">
       <Filter>Dynamix</Filter>
     </ClCompile>
+    <ClCompile Include="src\dypchcpp.cpp" />
   </ItemGroup>
 </Project>

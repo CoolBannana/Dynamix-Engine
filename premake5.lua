@@ -18,6 +18,9 @@ language "C++"
 targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+pchheader "dypch.h"
+pchsource "Dynamix/src/dypch.cpp"
+
 files
 {
 	"%{prj.name}/src/**.h",
@@ -26,6 +29,7 @@ files
 
 includedirs
 {
+	"%{prj.name}/src",
 	"%{prj.name}/vendor/spdlog/include"
 }
 
