@@ -1,3 +1,4 @@
+#include "dypch.h"
 #include <Dynamix.h>
 
 class Sandbox : public Dynamix::Application

@@ -11,6 +11,8 @@
 #include <vector>
 #include <unordered_map>
 #include <unordered_set>
+#include "Dynamix/Log.h"
+#include "Dynamix/Events/Event.h"
 
 #ifdef DY_PLATFORM_WINDOWS
 #include <Windows.h>

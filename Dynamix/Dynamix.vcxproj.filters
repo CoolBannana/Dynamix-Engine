@@ -7,6 +7,12 @@
     <Filter Include="Dynamix\Events">
       <UniqueIdentifier>{A32DEFE7-8FFB-E2ED-788F-531464FCBE52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Dynamix\Platform">
+      <UniqueIdentifier>{D3298FBC-BF22-AE0E-E854-9393D4AC8D1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamix\Platform\Windows">
+      <UniqueIdentifier>{0DF74652-F91B-96D2-2267-7B620EEB94F0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Dynamix.h" />
@@ -34,6 +40,12 @@
     <ClInclude Include="src\Dynamix\Log.h">
       <Filter>Dynamix</Filter>
     </ClInclude>
+    <ClInclude Include="src\Dynamix\Platform\Windows\WindowsWindow.h">
+      <Filter>Dynamix\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Dynamix\Window.h">
+      <Filter>Dynamix</Filter>
+    </ClInclude>
     <ClInclude Include="src\dypch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +55,9 @@
     <ClCompile Include="src\Dynamix\Log.cpp">
       <Filter>Dynamix</Filter>
     </ClCompile>
-    <ClCompile Include="src\dypchcpp.cpp" />
+    <ClCompile Include="src\Dynamix\Platform\Windows\WindowsWindow.cpp">
+      <Filter>Dynamix\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dypch.cpp" />
   </ItemGroup>
 </Project>
