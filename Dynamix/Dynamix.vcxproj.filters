@@ -47,6 +47,8 @@
       <Filter>Dynamix</Filter>
     </ClInclude>
     <ClInclude Include="src\dypch.h" />
+    <ClInclude Include="src\Dynamix\Layer.h" />
+    <ClInclude Include="src\Dynamix\LayerStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Dynamix\Application.cpp">
@@ -59,5 +61,7 @@
       <Filter>Dynamix\Platform\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\dypch.cpp" />
+    <ClCompile Include="src\Dynamix\Layer.cpp" />
+    <ClCompile Include="src\Dynamix\LayerStack.cpp" />
   </ItemGroup>
 </Project>

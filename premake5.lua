@@ -64,14 +64,17 @@ postbuildcommands
 
 filter "configurations:Debug"
 defines "DY_DEBUG"
+buildoptions "/MDd"
 symbols "On"
 
 filter "configurations:Release"
 defines "DY_RELEASE"
+buildoptions "/MD"
 optimize "On"
 
 filter "configurations:Dist"
 defines "DY_DIST"
+buildoptions "/MD"
 optimize "On"
 
 project "Sandbox"
@@ -111,12 +114,15 @@ defines
 
 filter "configurations:Debug"
 defines "DY_DEBUG"
+buildoptions "/MDd"
 symbols "On"
 
 filter "configurations:Release"
 defines "DY_RELEASE"
+buildoptions "/MD"
 optimize "On"
 
 filter "configurations:Dist"
 defines "DY_DIST"
+buildoptions "/MD"
 optimize "On"

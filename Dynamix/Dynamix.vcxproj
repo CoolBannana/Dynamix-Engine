@@ -85,6 +85,7 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/MDd %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -157,6 +158,8 @@
     <ClInclude Include="src\Dynamix\Events\Event.h" />
     <ClInclude Include="src\Dynamix\Events\KeyEvent.h" />
     <ClInclude Include="src\Dynamix\Events\MouseEvent.h" />
+    <ClInclude Include="src\Dynamix\Layer.h" />
+    <ClInclude Include="src\Dynamix\LayerStack.h" />
     <ClInclude Include="src\Dynamix\Log.h" />
     <ClInclude Include="src\Dynamix\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\Dynamix\Window.h" />
@@ -164,6 +167,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Dynamix\Application.cpp" />
+    <ClCompile Include="src\Dynamix\Layer.cpp" />
+    <ClCompile Include="src\Dynamix\LayerStack.cpp" />
     <ClCompile Include="src\Dynamix\Log.cpp" />
     <ClCompile Include="src\Dynamix\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\dypch.cpp">

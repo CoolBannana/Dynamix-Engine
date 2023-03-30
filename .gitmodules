@@ -1,3 +1,7 @@
 [submodule "Dynamix/vendor/spdlog"]
 	path = Dynamix/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+
+[submodule "Dynamix/vendor/GLFW"]
+	path = Dynamix/vendor/GLFW
+	url = https://github.com/TheCherno/GLFW
